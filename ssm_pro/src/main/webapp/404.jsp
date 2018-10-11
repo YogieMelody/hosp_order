@@ -14,7 +14,7 @@
 	session.setAttribute("mybasePath", basePath);
 %>
 <!-- CSS -->
-<jsp:include page="../include/headtag.jsp" />
+<jsp:include page="../WEB-INF/jsp/include/headtag.jsp" />
 <!-- <link rel="stylesheet"
 	href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500"> -->
 <link rel="stylesheet"
@@ -23,8 +23,8 @@
 <link rel="stylesheet" href="${mybasePath}assets/css/style.css">
 </head>
 <body>
-	<jsp:include page="../include/head.jsp" />
-	<jsp:include page="../include/menu.jsp" />
+	<jsp:include page="../WEB-INF/jsp/include/head.jsp" />
+	<jsp:include page="../WEB-INF/jsp/include/menu.jsp" />
 	<div id="page-wrapper" style="margin-top: 50px;">
 		<div id="page-inner">
 			<div class="row">
